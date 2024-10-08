@@ -6,11 +6,6 @@ from datetime import datetime
 
 
 st.title('Privacy Policy Training Site')
-st.write("Display Image")
-
-img = Image.open('Hydro.jpg')
-if st.checkbox("Show Image"):
-    st.image(img, caption="Hydro", use_column_width=True)
 
 st.write('DataFrame')
 
